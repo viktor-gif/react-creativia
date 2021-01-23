@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-creativia/static/css/main.1ab5f28e.chunk.css",
+    "main.js": "/react-creativia/static/js/main.b895df29.chunk.js",
+    "main.js.map": "/react-creativia/static/js/main.b895df29.chunk.js.map",
+    "runtime-main.js": "/react-creativia/static/js/runtime-main.86a422d7.js",
+    "runtime-main.js.map": "/react-creativia/static/js/runtime-main.86a422d7.js.map",
+    "static/js/2.51adf1e1.chunk.js": "/react-creativia/static/js/2.51adf1e1.chunk.js",
+    "static/js/2.51adf1e1.chunk.js.map": "/react-creativia/static/js/2.51adf1e1.chunk.js.map",
+    "index.html": "/react-creativia/index.html",
+    "precache-manifest.31af324694c49b08b1ac8663a0db1602.js": "/react-creativia/precache-manifest.31af324694c49b08b1ac8663a0db1602.js",
+    "service-worker.js": "/react-creativia/service-worker.js",
+    "static/css/main.1ab5f28e.chunk.css.map": "/react-creativia/static/css/main.1ab5f28e.chunk.css.map",
+    "static/js/2.51adf1e1.chunk.js.LICENSE.txt": "/react-creativia/static/js/2.51adf1e1.chunk.js.LICENSE.txt",
+    "static/media/1.jpeg": "/react-creativia/static/media/1.968041cc.jpeg",
+    "static/media/2.jpeg": "/react-creativia/static/media/2.65e9a398.jpeg",
+    "static/media/3.jpeg": "/react-creativia/static/media/3.7db9ab5d.jpeg",
+    "static/media/4.jpeg": "/react-creativia/static/media/4.c987c9fe.jpeg",
+    "static/media/logo.svg": "/react-creativia/static/media/logo.5d5d9eef.svg",
+    "static/media/map.jpeg": "/react-creativia/static/media/map.8b8159e1.jpeg",
+    "static/media/Intro.module.css": "/react-creativia/static/media/titleImg.43f79255.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86a422d7.js",
+    "static/js/2.51adf1e1.chunk.js",
+    "static/css/main.1ab5f28e.chunk.css",
+    "static/js/main.b895df29.chunk.js"
+  ]
+}
