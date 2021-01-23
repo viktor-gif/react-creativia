@@ -1,0 +1,31 @@
+.twitterContainer {
+  height: 294px;
+  background-color: #292929;
+  margin-bottom: 100px;
+  position: relative;
+  padding: 0;
+}
+.twitterInner {
+  max-width: 770px;
+  margin: 0 auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+}
+.twitterInner img {
+  margin: 93px auto 25px;
+}
+.twitterInner p {
+  margin: 0;
+  font-size: 15px;
+  color: #fff;
+}
+.imgBackground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+.scrollStyle {
+  background-color: #ff0036;
+}

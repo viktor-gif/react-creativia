@@ -1,0 +1,42 @@
+.networksContainer {
+  background-color: #040404;
+}
+
+.headerColor {
+  color: #fff;
+}
+.headerMargin {
+  margin: 100px auto 50px;
+}
+
+.cube {
+  width: 115px;
+  height: 38px;
+  background-color: transparent;
+  margin-bottom: 177px;
+  position: relative;
+  text-align: center;
+}
+.followersMount {
+  color: #fff;
+  position: relative;
+  top: 93px;
+  left: 0;
+  z-index: 10;
+}
+
+.netWorks {
+  display: flex;
+  justify-content: center;
+}
+.netWorks .netWork:last-of-type {
+  margin-right: 0;
+}
+.netWork {
+}
+/* .followersMount {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 10;
+} */

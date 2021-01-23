@@ -1,0 +1,48 @@
+.scroll {
+  height: 1px;
+  width: 515px;
+  background-color: #000;
+  margin: 100px auto 0 auto;
+  position: relative;
+}
+.slider {
+  margin: 0 auto;
+}
+
+.figure {
+  height: 19px;
+  width: 11px;
+  background-color: #000;
+  position: absolute;
+  left: 250px;
+  bottom: -9px;
+}
+.figure.left {
+  rotate: 300deg;
+}
+.figure.right {
+  rotate: 60deg;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .scroll {
+    margin: 60px auto 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll {
+    width: 315px;
+    margin: 30px auto 0 auto;
+  }
+  .figure {
+    left: 150px;
+  }
+}
+@media (max-width: 576px) {
+  .scroll {
+    display: none;
+  }
+}

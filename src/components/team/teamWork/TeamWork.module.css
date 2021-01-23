@@ -1,0 +1,89 @@
+.teamWorkContainer {
+  margin: 100px auto 100px;
+}
+
+.teamWork {
+  margin: 100px auto 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.worker {
+  margin-right: 30px;
+}
+.teamWork div:last-of-type {
+  margin-right: 0;
+}
+.workerImg {
+  margin: 0 auto;
+  position: relative;
+}
+.workerImgContainer:hover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 98.5%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.workerImgContainer img {
+  margin: 0 auto;
+  width: 100%;
+}
+.workerName {
+  margin: 34px auto 25px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: all 0.1s;
+}
+.workerName:hover {
+  color: #ff0036;
+}
+.workerPosition {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Workers-network (hover) */
+.workersSotialNetworks {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  z-index: 20;
+}
+.networkBanch {
+  display: flex;
+  justify-content: center;
+}
+.networkBanch div:last-of-type {
+  margin-right: 0;
+}
+.hexContainer {
+  position: relative;
+  margin-right: 57px;
+}
+
+.hex {
+  width: 23px;
+  height: 41px;
+  background-color: #fff;
+  position: absolute;
+}
+.hex:hover {
+  background-color: #505050;
+}
+.hex.left {
+  rotate: 300deg;
+}
+.hex.right {
+  rotate: 60deg;
+}
+.networkIcon {
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  z-index: 30;
+}

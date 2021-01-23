@@ -1,0 +1,44 @@
+.teamWorkContainer {
+}
+
+.skills {
+  margin: 100px auto 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.skill {
+  max-width: 170px;
+  margin-right: 30px;
+}
+.skills div:last-of-type {
+  margin-right: 0;
+}
+
+.percent {
+  width: 145px;
+  height: 145px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 145px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 200;
+}
+.percent span {
+  color: #ff0036;
+}
+
+.skill h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 25px auto 25px;
+  font-weight: 500;
+}
+
+.skill p {
+  font-size: 15px;
+  color: #505050;
+  margin: 0;
+}

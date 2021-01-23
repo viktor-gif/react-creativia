@@ -1,0 +1,73 @@
+.logosContainer {
+  display: inline;
+}
+
+.logoNavbar {
+  position: relative;
+  border-top: 42px solid #131313;
+  height: 64px;
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  background-color: transparent;
+  z-index: 1000;
+}
+/* .logoTextContainer {
+    
+    background-color: #131313;
+} */
+.logoText {
+  display: block;
+  background-color: transparent;
+  margin-top: -7px;
+  color: #fff;
+  position: absolute;
+  left: 75px;
+  top: 0;
+  z-index: 1000;
+}
+
+.figure {
+  display: flex;
+}
+.figureLeft {
+  width: 0;
+  height: 0;
+  border: 32px solid transparent;
+  border-right: 33px solid #131313;
+  border-top: 33px solid #131313;
+}
+.figureCenter {
+  width: 122px;
+  height: 64px;
+  background-color: #131313;
+}
+.figureRight {
+  width: 0;
+  height: 0;
+  border: 32px solid transparent;
+  border-left: 33px solid #131313;
+  border-top: 33px solid #131313;
+}
+
+/* logoForSmallDisplays */
+.logoForSmallDisplays {
+  display: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  z-index: 1;
+}
+
+@media (max-width: 576px) {
+  .logoNavbar {
+    display: none;
+  }
+  .logoForSmallDisplays {
+    display: inline-block;
+  }
+}

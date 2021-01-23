@@ -1,0 +1,85 @@
+.intro {
+  background-blend-mode: multiply;
+  background-image: url("../../../img/titleImg.jpeg");
+  background-position: center top;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+.introWrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.arrow {
+  width: 22px;
+  height: 22px;
+  border-bottom: 6px solid #000;
+  border-left: 6px solid #000;
+  position: absolute;
+  cursor: pointer;
+}
+.arrow.left {
+  left: 36px;
+  rotate: 45deg;
+  bottom: 45%;
+}
+.arrow.right {
+  right: 36px;
+  rotate: 225deg;
+  bottom: 45%;
+}
+.arrow.leftMouseDown {
+  border-bottom: 6px solid #999;
+  border-left: 6px solid #999;
+  left: 40px;
+}
+.arrow.rightMouseDown {
+  border-bottom: 6px solid #999;
+  border-left: 6px solid #999;
+  right: 40px;
+}
+
+/* mutable styles for SectionsTitle */
+.marginTitle {
+  margin-top: 255px;
+}
+.firstFractionColor {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .introWrapper {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .marginTitle {
+    margin-top: 170px;
+  }
+}
+@media (max-width: 992px) {
+  .marginTitle {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .introWrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .arrow.left {
+    left: 10px;
+    bottom: 50%;
+  }
+  .arrow.right {
+    right: 10px;
+    bottom: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .marginTitle {
+    margin-top: 100px;
+  }
+}

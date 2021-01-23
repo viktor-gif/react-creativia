@@ -1,0 +1,93 @@
+.servicesContainer {
+  background-color: #272727;
+}
+.servicesInner {
+  max-width: 1170px;
+  margin: 0 100px 0 100px;
+}
+
+.titleColor {
+  color: #fff;
+}
+.titleMargin {
+  margin: 100px auto 0;
+}
+.suptitleStyle {
+  color: #a4a4a4;
+}
+
+/* services */
+.services {
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 57px;
+}
+
+/* service */
+.service {
+}
+.service:hover .serviceDescription {
+  background-color: rgba(255, 0, 54, 0.1);
+}
+.service:hover .hex {
+  background-color: rgb(255, 0, 54);
+}
+.serviceHead {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+.serviceHead h6 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 20px;
+}
+.serviceIcon {
+  height: 57px;
+  width: 66px;
+  background-color: transparent;
+  margin-right: 30px;
+}
+.serviceIcon img {
+  position: relative;
+  top: 12px;
+  left: 15px;
+  z-index: 100;
+}
+.serviceDescription {
+  color: #a4a4a4;
+  background-color: rgba(164, 164, 164, 0.1);
+  font-size: 15px;
+  padding: 30px;
+}
+
+.scrollStyle {
+  background-color: #ff0036;
+  z-index: 10;
+}
+
+/* hexagon */
+.hexContainer {
+  position: relative;
+  top: 0;
+  left: 15px;
+}
+.hex {
+  width: 34px;
+  height: 57px;
+  background-color: #a4a4a4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hex.left {
+  rotate: 300deg;
+}
+.hex.right {
+  rotate: 60deg;
+}

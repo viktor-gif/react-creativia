@@ -1,0 +1,8 @@
+.SectionsSuptitle {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.SectionsSuptitle span {
+  color: #ff0036;
+}

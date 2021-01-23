@@ -1,0 +1,37 @@
+.introBtns {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 213px;
+}
+.button {
+  margin: 0 30px;
+  width: 170px;
+  height: 50px;
+  border: none;
+  background-color: #131313;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.button:hover {
+  background-color: #ff0036;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .introBtns {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .introBtns a button:first-child {
+    margin-bottom: 20px;
+  }
+  .introBtns {
+    padding-bottom: 50px;
+  }
+}

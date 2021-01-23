@@ -1,0 +1,114 @@
+.clients {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.clientsWrapper {
+  max-width: 1170px;
+  margin: 0 100px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+.firstFractionTitleColorStyle {
+  color: #fff;
+}
+.firstFractionMarginStyle {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.SuptitleStyle {
+  color: #999999;
+}
+
+.happyClientsWrapper {
+  margin: 100px 0;
+}
+.happyClientsWrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.happyClientsInner {
+  float: left;
+  width: 50%;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.happyClientsInner h4 {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 auto 50px;
+}
+.happyClientsInner p {
+  color: #999999;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+/* .clientImg {
+  display: inline-block;
+  margin: 0 auto;
+} */
+.clientImg img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.clientsScroll {
+  display: flex;
+  justify-content: center;
+  margin-top: 57px;
+}
+.clientsScroll div {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+}
+.clientsScroll div:first-of-type {
+  margin-right: 5px;
+}
+.clientsScroll div:nth-of-type(2) {
+  background-color: #ff0036;
+}
+.clientsScroll div:last-of-type {
+  margin-left: 5px;
+}
+
+.clientsFeatures {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 39px;
+}
+.clientsFeatures div {
+  height: 116px;
+
+  max-width: 270px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 25px;
+  text-transform: lowercase;
+  text-align: center;
+  line-height: 116px;
+}
+.clientsFeatures div img {
+  position: relative;
+  top: 20px;
+  left: 0;
+}
+
+.scrollColorStyle {
+  background-color: #ff0036;
+}
+.scrollHiddenStyle {
+  position: relative;
+  z-index: 1000;
+}

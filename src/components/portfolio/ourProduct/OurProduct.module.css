@@ -1,0 +1,180 @@
+.OurProductWrapper {
+  max-width: 1170px;
+  margin: 100px 50px 100px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+.marginSection {
+  margin-bottom: 0;
+}
+
+.featuresBlock {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hexWrapper {
+  position: relative;
+  display: block;
+}
+.imgInnerWrapper {
+  position: relative;
+  display: inline-block;
+}
+.imgWrapper {
+  position: relative;
+  left: 0;
+  bottom: 100px;
+  z-index: 10;
+  display: inline-block;
+}
+.featuresImg {
+  display: inline-block;
+}
+.featuresImg img {
+  width: 328px;
+  border: 22px solid #d8d8d8;
+  border-top: 53px solid #d8d8d8;
+  border-radius: 25px;
+}
+.camera {
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  display: inline-block;
+}
+.homeButton {
+  width: 28px;
+  height: 28px;
+  background-color: #d8d8d8;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  left: 46%;
+  z-index: 1;
+  display: inline-block;
+}
+
+.hex {
+  width: 237px;
+  height: 411px;
+  background-color: #4c4c4c;
+  position: absolute;
+  bottom: 0;
+  left: 68px;
+}
+.hex.left {
+  rotate: 300deg;
+}
+.hex.right {
+  rotate: 60deg;
+}
+
+.featureItem {
+  margin-bottom: 23px;
+  margin-right: 32px;
+  padding: 20px 76px 18px 22px;
+  background: transparent;
+  position: relative;
+  text-align: right;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  max-width: 100%;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.featureItem:hover {
+  background-color: #ff0036;
+  color: #fff;
+  padding-top: 21px;
+  padding-bottom: 17px;
+}
+.featureItem img {
+  position: absolute;
+  top: 11px;
+  right: 18px;
+}
+.rightFeatures {
+  margin-left: 32px;
+  margin-right: 0;
+  padding: 20px 22px 18px 76px;
+  text-align: left;
+}
+.rightFeatures img {
+  left: 18px;
+}
+
+.square {
+  width: 237px;
+  height: 205px;
+  background-color: #262626;
+  position: absolute;
+  left: 68px;
+  bottom: 0;
+  z-index: 20;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-top: 205px solid #262626;
+  position: absolute;
+  left: -51px;
+  bottom: 0;
+  z-index: 30;
+}
+.triangleRight {
+  width: 0;
+  height: 0;
+  border-right: 120px solid transparent;
+  border-top: 205px solid #262626;
+  position: absolute;
+  right: -51px;
+  bottom: 0;
+  z-index: 30;
+}
+
+.psdButton button {
+  position: absolute;
+  right: 95px;
+  bottom: 73px;
+  z-index: 40;
+  width: 170px;
+  height: 50px;
+  background-color: #393939;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .OurProductWrapper {
+  }
+}
+@media (max-width: 992px) {
+  .OurProductWrapper {
+    margin: 70px 50px 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .OurProductWrapper {
+    margin: 50px 50px 50px;
+  }
+}
+@media (max-width: 576px) {
+  .OurProductWrapper {
+    margin: 30px 30px 30px;
+  }
+}

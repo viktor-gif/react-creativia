@@ -1,0 +1,71 @@
+.marginHeader {
+  margin: 100px auto 0;
+}
+
+.mapImg {
+  margin: 100px 0 0;
+  background-image: url(../../../img/contacts/map/map.jpeg);
+  height: 575px;
+  width: 100%;
+  position: relative;
+}
+
+.mapInfo {
+  display: inline-block;
+  padding: 34px 104px 47px 24px;
+  background-color: #262626;
+  color: #fff;
+  font-style: normal;
+  line-height: 25px;
+  position: relative;
+  margin-top: 250px;
+  margin-left: 250px;
+}
+.locationPointer {
+  width: 0;
+  height: 0;
+  border-top: 60px solid #262626;
+  border-right: 25px solid transparent;
+  position: absolute;
+  bottom: -40px;
+  right: 10px;
+  z-index: 20;
+  rotate: 20deg;
+}
+
+.formContainer {
+  position: absolute;
+  bottom: 0;
+  right: 250px;
+  z-index: 10;
+  background-color: #fff;
+  padding: 45px;
+  font-size: 17px;
+  text-transform: uppercase;
+  width: 400px;
+  height: auto;
+}
+.formContainer form {
+  font-size: 12px;
+  text-transform: capitalize;
+  padding-left: 15px;
+}
+.formContainer form button {
+  width: 120px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #262626;
+  color: #fff;
+  border: none;
+  float: right;
+  margin-top: 140px;
+}
+.formContainer form input {
+  margin-top: 30px;
+  border: none;
+  width: 80%;
+}
+.formContainer form:first-child {
+  margin-top: 20px;
+}

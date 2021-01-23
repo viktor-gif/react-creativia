@@ -1,0 +1,66 @@
+.accordeonItem {
+}
+
+.accordeonBody {
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 45px;
+  background-color: #f7f7f7;
+  margin-top: 10px;
+  position: relative;
+}
+.accordeonItem h3 {
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+  position: absolute;
+  left: 90px;
+  bottom: -10px;
+}
+.accordeonItem p {
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 13px;
+  /* display: none; */
+}
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 13px;
+  left: 18px;
+}
+.iconBadgeHorizontal {
+  width: 10px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  left: 4px;
+  top: 8px;
+}
+.iconBadgeVertical {
+  width: 2px;
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+}
+.icon.active {
+  border: 1px solid #ff0036;
+}
+.header.active {
+  color: #ff0036;
+}
+.iconBadgeHorizontal.active {
+  background-color: #ff0036;
+}
+.iconBadgeVertical.active {
+  background-color: #ff0036;
+}
+.accordeonInfo {
+  display: none;
+}

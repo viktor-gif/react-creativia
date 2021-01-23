@@ -1,0 +1,19 @@
+.hexContainer {
+  position: relative;
+  width: 34px;
+  margin: 0 auto;
+}
+.hex {
+  width: 38px;
+  height: 68px;
+  background-color: #ff0036;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hex.left {
+  rotate: 300deg;
+}
+.hex.right {
+  rotate: 60deg;
+}

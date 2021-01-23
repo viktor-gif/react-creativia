@@ -1,0 +1,72 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.title {
+  margin: 50px auto 30px;
+}
+.title h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+}
+.advantage {
+  color: #505050;
+}
+
+.iconHexagon {
+  margin: 0 auto;
+  height: 76px;
+  width: 44px;
+  background-color: inherit;
+  position: relative;
+  z-index: 1;
+  transition: 0.2s;
+}
+.iconHexagon img {
+  position: absolute;
+  z-index: 1000;
+  left: 14%;
+  top: 25%;
+}
+.iconHexagon.left {
+  position: absolute;
+  z-index: 1;
+  rotate: 300deg;
+}
+.iconHexagon.right {
+  position: absolute;
+  z-index: 1;
+  rotate: 60deg;
+}
+.iconHexagon:hover {
+  background-color: red;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .main {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+    margin: -30px auto 70px;
+  }
+  .title {
+    margin: 10px auto 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+    margin: -50px auto 70px;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    margin: -150px auto 70px;
+  }
+}

@@ -1,0 +1,97 @@
+.portfolioPage {
+  background-color: #262626;
+}
+
+.firstFractionColor {
+  color: #fff;
+}
+.marginTiltle {
+  margin-top: 100px;
+  margin-bottom: 28px;
+}
+
+.suptitle {
+  color: #a4a4a4;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 20px;
+  margin-bottom: 100px;
+}
+.suptitle span {
+  margin: 0 20px;
+  color: #ff0036;
+}
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.imgRow {
+  display: flex;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.imgRow.beneath {
+  margin-top: -4px;
+}
+.imgRow div img {
+  width: 100%;
+}
+/* .imgRow div {
+  position: relative;
+} */
+.innerImg {
+  position: relative;
+}
+.imgContainer:hover:before {
+  content: "design name";
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  line-height: 20vw;
+}
+
+.colorScroll {
+  background-color: red;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .marginTiltle {
+    margin-top: 70px;
+  }
+  .suptitle {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 576px) {
+  .marginTiltle {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .suptitle {
+    margin-bottom: 50px;
+  }
+  .lists {
+    grid-template-columns: 1fr;
+  }
+  .portfolioPage {
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 576px) {
+  .imgRow.beneath.second {
+    margin-top: 0;
+  }
+}
