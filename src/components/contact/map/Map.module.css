@@ -30,7 +30,7 @@
   bottom: -40px;
   right: 10px;
   z-index: 20;
-  rotate: 20deg;
+  transform: rotate(20deg);
 }
 
 .formContainer {

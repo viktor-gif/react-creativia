@@ -24,7 +24,7 @@
   background-color: inherit;
   position: relative;
   z-index: 1;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .iconHexagon img {
   position: absolute;
@@ -35,12 +35,12 @@
 .iconHexagon.left {
   position: absolute;
   z-index: 1;
-  rotate: 300deg;
+  transform: rotate(300deg);
 }
 .iconHexagon.right {
   position: absolute;
   z-index: 1;
-  rotate: 60deg;
+  transform: rotate(60deg);
 }
 .iconHexagon:hover {
   background-color: red;
