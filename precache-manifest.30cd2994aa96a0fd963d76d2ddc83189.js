@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27e7cfacaa28b51653d289d74eedda68",
+    "revision": "f12fbb58008577825815a4e3843c0b56",
     "url": "/react-creativia/index.html"
   },
   {
-    "revision": "6e2080ff565d2bb42f61",
-    "url": "/react-creativia/static/css/main.1ab5f28e.chunk.css"
+    "revision": "961dbf2ad5561d2ff830",
+    "url": "/react-creativia/static/css/main.15de5a0e.chunk.css"
   },
   {
     "revision": "701c3407b9ef5988097b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-creativia/static/js/2.d18bf4f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e2080ff565d2bb42f61",
+    "revision": "961dbf2ad5561d2ff830",
     "url": "/react-creativia/static/js/main.e4ae06b9.chunk.js"
   },
   {
